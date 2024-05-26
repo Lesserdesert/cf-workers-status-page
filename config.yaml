@@ -29,7 +29,7 @@ monitors:
     description: '屑寒个人网站'
     url: 'https://hanbingverse.com/'
     method: GET
-    expectStatus: 403
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
   - id: inter-knot.com
@@ -37,6 +37,6 @@ monitors:
     description: '绝区零玩家二创绳网'
     url: 'https://inter-knot.com/'
     method: GET
-    expectStatus: 403
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
