@@ -40,3 +40,26 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
+  - id: www.cloudflare.com
+    name: cloudflare
+    description: 'Connect, protect and build everywhere'
+    url: 'https://www.cloudflare.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: cloud.tencent.com
+    name: Cloud.Tencent
+    description: '腾讯云'
+    url: 'https://cloud.tencent.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: cn.aliyun.com
+    name: 阿里云
+    description: '阿里云'
+    url: 'https://cn.aliyun.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
