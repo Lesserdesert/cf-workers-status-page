@@ -1,16 +1,16 @@
 settings:
-  title: '网站运行状态 Status Page'
+  title: '服务器与系统运行状态'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational 所有系统运行正常'
-  notAllmonitorsOperational: 'Not All Systems Operational 有系统正在宕机'
-  monitorLabelOperational: 'Operational 运行正常'
-  monitorLabelNotOperational: 'Not Operational 宕机'
-  monitorLabelNoData: 'No data 无数据'
-  dayInHistogramNoData: 'No data 无数据'
+  allmonitorsOperational: '所有系统运行正常'
+  notAllmonitorsOperational: '有系统正在宕机'
+  monitorLabelOperational: '运行正常'
+  monitorLabelNotOperational: '宕机'
+  monitorLabelNoData: '无数据'
+  dayInHistogramNoData: '无数据'
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
