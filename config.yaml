@@ -5,12 +5,12 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
+  allmonitorsOperational: 'All Systems Operational 所有系统运行正常'
+  notAllmonitorsOperational: 'Not All Systems Operational 有系统正在宕机'
+  monitorLabelOperational: 'Operational 运行正常'
+  monitorLabelNotOperational: 'Not Operational 宕机'
+  monitorLabelNoData: 'No data 无数据'
+  dayInHistogramNoData: 'No data 无数据'
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
