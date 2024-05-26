@@ -2,7 +2,7 @@ settings:
   title: '服务器与系统运行状态'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 60 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '所有系统运行正常'
@@ -11,8 +11,8 @@ settings:
   monitorLabelNotOperational: '宕机'
   monitorLabelNoData: '无数据'
   dayInHistogramNoData: '无数据'
-  dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramOperational: '全部正常'
+  dayInHistogramNotOperational: ' 次意外' # xx 次意外 recorded
 
 monitors:
   - id: workers-cloudflare-com # unique identifier
