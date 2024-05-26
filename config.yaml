@@ -63,3 +63,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: uptimerobot
+    name: 监测站二号
+    description: '备用监测站点'
+    url: 'https://status.hanbingverse.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
