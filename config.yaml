@@ -2,7 +2,7 @@ settings:
   title: '服务器与系统运行状态'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '所有系统运行正常'
@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: hanbingverse.com
-    name: 寒冰冽个人网站 Hanbingverse.com
+    name: 寒冰冽
     description: '屑寒个人网站'
     url: 'https://hanbingverse.com/'
     method: GET
@@ -33,7 +33,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: inter-knot.com
-    name: 绳网 Inter-knot.com
+    name: 绳网
     description: '绝区零玩家二创绳网'
     url: 'https://inter-knot.com/'
     method: GET
